@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  background: #51432f url("http://www.freecreatives.com/wp-content/uploads/2015/03/vintage_notebook-1024x806.jpg") no-repeat center top;
+  color: #51432f;
+}
+
+form, div {
+  font-family: "Pacifico", cursive;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 28px 0 0 0;
+}
+input {
+  width: 342px;
+  border-radius: 6px;
+  border: 2px solid #B89767;
+}
+button {
+  visibility: hidden;
+}
+
+#list {
+  text-align: left;
+  padding: 18px 0 0 272px;
+  font-size: 20px;
+  position: relative;
+  left: 22px;
+  top: -42px;
+  list-style-type: none;
+}
+#list li {
+  padding: 0.4px 0 0 0;
+}
+
+.cross-out {
+  opacity: .5;
+  text-decoration: line-through;
+}

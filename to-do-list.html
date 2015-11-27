@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<link rel="stylesheet" type="text/css" href="to-do-list.css">
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <h1>To Do List</h1>
+  <form onsubmit="return false">
+    <br>
+    <label>Enter the things you need to do separated by a comma:
+      <br>
+      <input type="text" placeholder="Ex. learn to code, build a fantasy football app, etc." id="to-do" title="Hit Enter to submit">
+    </label>
+    <br>
+    <button onclick="validate(addItems)" type="submit">Submit</button>
+  </form>
+	<br>
+	<br>
+  <div id="list">
+  </div>
+</body>
+<script type='text/javascript' src='to-do-list.js'></script>
+
+</html>
